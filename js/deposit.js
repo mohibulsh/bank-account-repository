@@ -1,4 +1,8 @@
+// back button link in deposit
 
+document.getElementById('back-btn').addEventListener('click',function(){
+    window.location.href ='login.html'
+})
 
 document.getElementById('deposit-btn').addEventListener('click',function(){
     const depositValue = takeInputGiveValue('deposit-field');
